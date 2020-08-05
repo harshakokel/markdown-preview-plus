@@ -6,10 +6,6 @@
 // includes some GitHub Flavored Markdown specific styling (like @mentions)
 .markdown-body {
   overflow: hidden;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  word-wrap: break-word;
 
   > *:first-child {
     margin-top: 0 !important;
@@ -49,91 +45,6 @@
     }
   }
 
-  // Headings
-  h1, h2, h3, h4, h5, h6 {
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: @margin;
-    font-weight: bold;
-    line-height: 1.4;
-
-    .octicon-link {
-      display: none;
-      color: #000;
-      vertical-align: middle;
-    }
-
-    &:hover .anchor {
-      padding-left: 8px;
-      margin-left: -30px;
-      text-decoration: none;
-
-      .octicon-link {
-        display: inline-block;
-      }
-    }
-
-    tt,
-    code {
-      font-size: inherit;
-    }
-  }
-
-  h1 {
-    padding-bottom: 0.3em;
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
-
-    .anchor {
-      line-height: 1;
-    }
-  }
-
-  h2 {
-    padding-bottom: 0.3em;
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
-
-    .anchor {
-      line-height: 1;
-    }
-  }
-
-  h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
-
-    .anchor {
-      line-height: 1.2;
-    }
-  }
-
-  h4 {
-    font-size: 1.25em;
-
-    .anchor {
-      line-height: 1.2;
-    }
-  }
-
-  h5 {
-    font-size: 1em;
-
-    .anchor {
-      line-height: 1.1;
-    }
-  }
-
-  h6 {
-    font-size: 1em;
-    color: #777;
-
-    .anchor {
-      line-height: 1.1;
-    }
-  }
 
   p,
   blockquote,
@@ -435,7 +346,6 @@
   kbd {
     display: inline-block;
     padding: 3px 5px;
-    font-size: 11px;
     line-height: 10px;
     color: #555;
     vertical-align: middle;
