@@ -225,26 +225,26 @@ ${html.head!.innerHTML}
 <header id="header">
 <h3><a href="../index.html">Harsha Kokel</a></h3>
 <ul class="icons">
-<li id="linkedin">
-  <a target="_blank" href="http://linkedin.com/in/harshakokel" title="linkedin" class="icon fa-linkedin">
-    <span class="label" >Linked in</span>
-  </a>
-</li>
-<li id="github">
-  <a target="_blank" href="https://github.com/harshakokel" title="github" class="icon fa-github">
-    <span class="label" >Github</span>
-  </a>
-</li>
-<li id="email">
-  <a  href="mailto:hkokel@utdallas.edu" title="mail" class="icon fa-envelope" >
-    <span class="label" >Mail</span>
-  </a>
-</li>
-<li id="twitter">
-  <a target="_blank" href="https://twitter.com/harsha_kokel" title="twitter" class="icon fa-twitter" >
-    <span class="label" title="Twitter">Twitter</span>
-  </a>
-</li>
+  <li id="linkedin">
+    <a target="_blank" href="http://linkedin.com/in/harshakokel" title="linkedin" class="icon brands fa-linkedin">
+      <span class="label" >Linked in</span>
+    </a>
+  </li>
+  <li id="github">
+    <a target="_blank" href="https://github.com/harshakokel" title="github" class="icon brands fa-github">
+      <span class="label" >Github</span>
+    </a>
+  </li>
+  <li id="email">
+    <a  href="mailto:hkokel@utdallas.edu" title="mail" class="icon solid fa-envelope" >
+      <span class="label" >Mail</span>
+    </a>
+  </li>
+  <li id="twitter">
+    <a target="_blank" href="https://twitter.com/harsha_kokel" title="twitter" class="icon brands fa-twitter" >
+      <span class="label" title="Twitter">Twitter</span>
+    </a>
+  </li>
 </ul>
 </header>
 
@@ -283,6 +283,7 @@ ${html.head!.innerHTML}
           <ul>
             <li><a href="../">Homepage</a></li>
             <li><a href="../cv.html">CV</a></li>
+            <li><a href="../projects.html">Projects</a></li>
             <li><a href="./">Blog Posts</a></li>
           </ul>
         </nav>
@@ -299,12 +300,12 @@ ${html.head!.innerHTML}
 
 	<!-- Scripts -->
 
-	<script src="../assets/js/jquery.min.js"></script>
-	<script src="../assets/js/skel.min.js"></script>
-	<script src="../assets/js/util.js"></script>
+  <script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="../assets/js/main.js"></script>
-
   </body>
 </html>
 ` // Ensure trailing newline
